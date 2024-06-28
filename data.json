@@ -1,0 +1,92 @@
+{
+  "cines": [
+    {"nombre": "CP Alcazar", "distrito": "San Isidro", "location": "-12.105768094625757, -77.03680946509955"},
+    {"nombre": "CP Brasil", "distrito": "Jesús María", "location": "-12.058767648367889, -77.04676582413387" },
+    {"nombre": "CP Caminos del Inca", "distrito": "San Borja", "location": "-12.106775157229404, -76.99080421990655"},
+    {"nombre": "CP Canto Grande", "distrito": "San Juan de Lurigancho", "location":"-11.97865963943185, -77.0109488237263"},
+    {"nombre": "CP Centro", "distrito": "Lima", "location":"-12.043405460374927, -77.03389858091697"},
+    {"nombre": "CP Centro Civico", "distrito": "Lima", "location":"-12.056126190521319, -77.03772432371906"},
+    {"nombre": "CP Comas", "distrito": "Comas", "location":"-11.933006984892979, -77.04511277297645"},
+    {"nombre": "CP El Polo", "distrito": "San Isidro", "location":"-12.100704612325039, -76.97193282740709"},
+    {"nombre": "CP Guardia Civil", "distrito": "Chorrillos", "location":"-12.172624224257515, -76.9926602036538"},
+    {"nombre": "CP La Molina", "distrito": "La Molina", "location":"-12.090354552782388, -76.95019023249033"},
+    {"nombre": "CP Lurin", "distrito": "Lurin", "location":"-12.274513419318637, -76.87400397481684"},
+    {"nombre": "CP Mall del Sur", "distrito": "San Juan de Miraflores", "location":"-12.155811716975872, -76.98161923248925"},
+    {"nombre": "CP Norte", "distrito": "San Martín de Porres", "location":"-11.98984227697932, -77.06255261715137"},
+    {"nombre": "CP Plaza Santa Catalina", "distrito": "La Victoria", "location":"-12.089389852102304, -77.0196485036551"},
+    {"nombre": "CP Primavera", "distrito": "San Borja", "location":"-12.111464777859796, -77.00211034598442"},
+    {"nombre": "CP Pro", "distrito": "Comas", "location":"-11.940544221310954, -77.07027644598735"},
+    {"nombre": "CP Puruchuco", "distrito": "Ate", "location":"-12.040249781573433, -76.9314300901615"},
+    {"nombre": "CP Risso", "distrito": "Lince", "location":"-12.086201558845216, -77.03461756132558"},
+    {"nombre": "CP Salaverry", "distrito": "Jesús María", "location":"-12.089804088483872, -77.05343577481997"},
+    {"nombre": "CP San Borja", "distrito": "San Borja", "location":"-12.089519588361338, -77.0049514324903"},
+    {"nombre": "CP San Miguel", "distrito": "San Miguel", "location":"-12.075729499583089, -77.0838259748203"},
+    {"nombre": "CP Santa Clara", "distrito": "Ate", "location":"-12.015133081276028, -76.88504947482129"},
+    {"nombre": "CP Villa El Salvador", "distrito": "Villa el Salvador", "location":"-12.202742964484715, -76.93324934598287"},
+    {"nombre": "CP San Juan de Lurigancho", "distrito": "San Juan de Lurigancho", "location":"-12.016087394329597, -76.99870007482126"},
+    {"nombre": "CP Ventanilla", "distrito": "Ventanilla", "location":"-11.872765598650151, -77.12668376132913"}
+  ],
+  "usuarios": [
+    {
+      "dni": 70000000,
+      "nombre": "Pedro Perez",
+      "preferences": {"nombre": "CP Alcazar", "distrito": "San Isidro"}
+    },
+    {
+      "dni": 70000001,
+      "nombre": "Juan Perez",
+      "preferences": {"nombre": "CP Brasil", "distrito": "Jesús María"}
+    },
+    {
+      "dni": 70000002,
+        "nombre": "Maria Rosa",
+        "preferences": {"nombre": "CP Caminos del Inca", "distrito": "San Borja"}
+    },
+    {
+      "dni": 70000003,
+        "nombre": "Luis Rojas",
+        "preferences": {"nombre": "CP Canto Grande", "distrito": "San Juan de Lurigancho"}
+
+    },
+    {
+      "dni": 70000004,
+        "nombre": "Carlos Cancho",
+        "preferences": {"nombre": "CP Centro", "distrito": "Lima"}
+
+    },
+    {
+      "dni": 70000005,
+        "nombre": "Rosa Cancho",
+        "preferences": {"nombre": "CP Centro Civico", "distrito": "Lima"}
+    },
+    {
+      "dni": 70000006,
+        "nombre": "Luis Cancho",
+        "preferences": {"nombre": "CP Comas", "distrito": "Comas"}
+    },
+    {
+      "dni": 70000007,
+        "nombre": "Miguel Ramos",
+        "preferences": {"nombre": "CP El Polo", "distrito": "San Isidro"}
+    },
+    {
+      "dni": 70000008,
+        "nombre": "Rosa Ramos",
+        "preferences": {"nombre": "CP Guardia Civil", "distrito": "Chorrillos"}
+    },
+    {
+      "dni": 70000009,
+        "nombre": "Gabriel Lopez",
+        "preferences": {"nombre": "CP La Molina", "distrito": "La Molina"}
+    },
+    {
+      "dni": 70000010,
+        "nombre": "Rosa Lopez",
+        "preferences": {"nombre": "CP Lurin", "distrito": "Lurin"}
+    }
+
+
+
+
+  ]
+}

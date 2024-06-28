@@ -1,0 +1,37 @@
+paths:
+  /find_nearest_cinemas:
+    post:
+      summary: Encuentra los cines más cercanos
+      description: Este endpoint devuelve los cines más cercanos a la ubicación del usuario
+      parameters:
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            properties:
+              user_location:
+                type: string
+                example: "12.3456,-98.7654"
+      responses:
+        200:
+          description: Operación exitosa
+          schema:
+            type: array
+            items:
+              type: object
+              properties:
+                cinema:
+                  type: string
+                  example: "Cinepolis"
+                distrito:
+                  type: string
+                  example: "San Isidro"
+                distance:
+                  type: string
+                  example: "2.5 km"
+                duration:
+                  type: string
+                  example: "15 mins"
+        400:
+          description: No se proporcionó la ubicación del usuario

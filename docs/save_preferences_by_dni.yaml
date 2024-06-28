@@ -1,0 +1,55 @@
+paths:
+  /find_preferred_cinema:
+    post:
+      summary: Encuentra el cine preferido
+      description: Este endpoint devuelve el cine preferido basado en las preferencias del usuario y su ubicación
+      parameters:
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            properties:
+              user_location:
+                type: string
+                example: "12.3456,-98.7654"
+              preferences:
+                type: object
+                properties:
+                  nombre:
+                    type: string
+                    example: "Cinepolis"
+                  distrito:
+                    type: string
+                    example: "San Isidro"
+      responses:
+        200:
+          description: Operación exitosa
+          schema:
+            type: object
+            properties:
+              cinema:
+                type: object
+                properties:
+                  nombre:
+                    type: string
+                    example: "Cinepolis"
+                  distrito:
+                    type: string
+                    example: "San Isidro"
+                  location:
+                    type: string
+                    example: "12.3456,-98.7654"
+              route:
+                type: object
+                properties:
+                  distance:
+                    type: string
+                    example: "2.5 km"
+                  duration:
+                    type: string
+                    example: "15 mins"
+        400:
+          description: No se proporcionó la ubicación del usuario o las preferencias
+        404:
+          description: No se encontró un cine que coincida con las preferencias

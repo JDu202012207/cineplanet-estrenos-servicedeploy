@@ -1,0 +1,31 @@
+paths:
+  /get_preferences_by_dni:
+    post:
+      summary: Obtiene las preferencias de un usuario por DNI
+      description: Este endpoint devuelve las preferencias de cine de un usuario dado su DNI
+      parameters:
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            properties:
+              dni:
+                type: integer
+                example: 70000000
+      responses:
+        200:
+          description: Operación exitosa
+          schema:
+            type: object
+            properties:
+              nombre:
+                type: string
+                example: CP Alcazar
+              distrito:
+                type: string
+                example: San Isidro
+        400:
+          description: No se proporcionó DNI
+        404:
+          description: No se encontraron preferencias para el DNI dado
